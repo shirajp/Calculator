@@ -15,9 +15,10 @@ Enter Second Number:
         $number2 = $_POST['number2'];  
         $sum =  $number1+$number2;     
         $difference =  $number1-$number2;   
-        
+        $multi =  $number1*$number2;
         echo "The sum of $number1 and $number2 is: ".$sum;
-        echo "The difference of $number1 and $number2 is: ".$difference;    
+        echo "The difference of $number1 and $number2 is: ".$difference;   
+        echo "The product of $number1 and $number2 is: ".$multi;
     }  
 ?>  
 </body>  
